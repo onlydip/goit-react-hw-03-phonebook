@@ -18,6 +18,9 @@ const SecondTitle = styled.h2`
     align-items: center; 
       text-align: center;
 `;
-
-export { FirstTitle, SecondTitle };
+ const WithoutContacts = styled.div`
+  text-align: center;
+  color: #fc4c72;
+`;
+export { FirstTitle, SecondTitle, WithoutContacts };
 
